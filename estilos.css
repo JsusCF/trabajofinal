@@ -150,6 +150,7 @@ p {
 
 form {
     background-color: #F2F2F2;
+    margin: 20px 0;
 }
 
 legend {
@@ -237,6 +238,16 @@ footer {
     color: #f3f3f3;
 }
 
+.button {
+    margin-left: 115px; 
+    background-color: #4b8a20; 
+    color: white; 
+    border: none; 
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
 @media screen and (max-width: 900px){
     #contenedor {
         width: 100%;
@@ -273,5 +284,8 @@ footer {
     }
     .lista h5 {
         font-size: 11px;
+    }
+    .button {
+        margin-left: 60px;
     }
 }
